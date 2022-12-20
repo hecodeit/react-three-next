@@ -33,3 +33,11 @@ const nextConfig = {
 "export": "next build && next export",
 "serve": "serve -d out"
 ```
+
+# move pages and styles folder to src
+
+# config basePath at next.config.js
+Why? Fix the nextjs project on not root.
+
+# config paths at tsconfig.json
+Why? import source use @/**
