@@ -4,7 +4,7 @@ import { Inter } from '@next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Intro() {
+export default function Overlay() {
     return (
         <main className={styles.main}>
             <div className={styles.description}>
