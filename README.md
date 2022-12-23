@@ -98,3 +98,10 @@ module.exports = (_phase, { defaultConfig }) => {
 
 # sync to server
 rsync --chown=artexb:nginx --delete -avz -e "ssh -i ./felixAdmin2021.pem" ./next root@39.105.95.136:/www/html/wordpress/lab/
+
+# install ThreeFiber
+yarn add three @types/three @react-three/fiber
+
+# create index and scroll page
+index page only render dom
+scroll page rend dom and canvas both

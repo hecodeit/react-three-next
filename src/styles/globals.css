@@ -14,3 +14,7 @@ body,
   overflow-x: hidden;
   user-select: none;
 }
+
+#__next {
+  overflow: auto;
+}
