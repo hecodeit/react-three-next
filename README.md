@@ -105,3 +105,26 @@ yarn add three @types/three @react-three/fiber
 # create index and scroll page
 index page only render dom
 scroll page rend dom and canvas both
+
+# XR
+yarn add @react-three/xr
+
+## Quest localhost test
+https://developer.oculus.com/documentation/web/browser-remote-debugging/
+
+## cd to adb
+cd platform-tools
+
+## List Devices
+adb devices
+
+## View Local Pages
+adb reverse tcp:8080 tcp:3000
+
+## Wi-Fi Debugging
+adb shell ip route
+adb tcpip 5555
+adb connect 192.168.11.150:5555
+
+## Disconnect
+adb disconnect

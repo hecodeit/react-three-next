@@ -61,19 +61,14 @@ export default function Overlay() {
                     </p>
                 </Link>
 
-                <a
-                    href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-                    className={styles.card}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
+                <Link href="./xr" className={styles.card}>
                     <h2>
-                        Learn <span>-&gt;</span>
+                        XR <span>-&gt;</span>
                     </h2>
                     <p>
-                        Learn about Next.js in an interactive course with&nbsp;quizzes!
+                        XR Sample page.
                     </p>
-                </a>
+                </Link>
 
                 <a
                     href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
